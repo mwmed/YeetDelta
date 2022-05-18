@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="YeetDelta.cpp" />
+    <ClCompile Include="base_window.cpp">
+      <Filter>yeet_base</Filter>
+    </ClCompile>
+    <ClCompile Include="base_d3d.cpp">
+      <Filter>yeet_base</Filter>
+    </ClCompile>
+    <ClCompile Include="yeet_timer.cpp">
+      <Filter>yeet_common</Filter>
+    </ClCompile>
+    <ClCompile Include="yeet_rectangle.cpp">
+      <Filter>yeet_framework\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="yeet_text.cpp">
+      <Filter>yeet_framework\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="imyeet.cpp">
+      <Filter>yeet_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="c_boxplayer.cpp">
+      <Filter>delta\game</Filter>
+    </ClCompile>
+    <ClCompile Include="c_boxcanvas.cpp">
+      <Filter>delta\game\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="c_userinputmanager.cpp">
+      <Filter>delta</Filter>
+    </ClCompile>
+    <ClCompile Include="c_objectmanager.cpp">
+      <Filter>delta</Filter>
+    </ClCompile>
+    <ClCompile Include="c_gamemanager.cpp">
+      <Filter>delta</Filter>
+    </ClCompile>
+    <ClCompile Include="c_playermanager.cpp">
+      <Filter>delta\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="yeet_base">
+      <UniqueIdentifier>{913a7413-79b8-4e47-9bf8-8f4921861068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeet_framework">
+      <UniqueIdentifier>{1fbe973e-7558-4899-8cec-9ce8dbd04fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeet_framework\objects">
+      <UniqueIdentifier>{52bbad92-09a5-41dd-b4a0-3e439410eb1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeet_common">
+      <UniqueIdentifier>{07825636-46fb-461d-a557-72a6977291ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="delta">
+      <UniqueIdentifier>{3b4d77bc-c3ae-4915-b52c-72b33839eb3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="delta\game">
+      <UniqueIdentifier>{e0ba91b4-40d1-446e-b57d-e83aff793470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="delta\game\canvas">
+      <UniqueIdentifier>{03a9bd63-0216-414e-9edb-bee111960e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="delta\objects">
+      <UniqueIdentifier>{0fd2dfd5-93fa-428f-a20e-d22e7de9495b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base_window.h">
+      <Filter>yeet_base</Filter>
+    </ClInclude>
+    <ClInclude Include="base_d3d.h">
+      <Filter>yeet_base</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_includes.h">
+      <Filter>yeet_common</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_math.h">
+      <Filter>yeet_common</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_timer.h">
+      <Filter>yeet_common</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_drawable.h">
+      <Filter>yeet_framework\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_rectangle.h">
+      <Filter>yeet_framework\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_text.h">
+      <Filter>yeet_framework\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="imyeet.h">
+      <Filter>yeet_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="c_boxplayer.h">
+      <Filter>delta\game</Filter>
+    </ClInclude>
+    <ClInclude Include="c_boxcanvas.h">
+      <Filter>delta\game\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="c_gamemanager.h">
+      <Filter>delta</Filter>
+    </ClInclude>
+    <ClInclude Include="delta_globals.h">
+      <Filter>delta</Filter>
+    </ClInclude>
+    <ClInclude Include="c_gameobject.h">
+      <Filter>delta\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="c_inputobject.h">
+      <Filter>delta\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="c_userinputmanager.h">
+      <Filter>delta</Filter>
+    </ClInclude>
+    <ClInclude Include="c_objectmanager.h">
+      <Filter>delta</Filter>
+    </ClInclude>
+    <ClInclude Include="deltaconstants.h">
+      <Filter>delta</Filter>
+    </ClInclude>
+    <ClInclude Include="c_playermanager.h">
+      <Filter>delta\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
